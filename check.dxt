@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("$(date)") 
+    fmt.Println("$(echo $ENV)")
+    // any valid bash could be used 
+    // of course this syntax adds certain limitations: this
+    // tool won't work properly with text that contains $ char or 
+    // bash syntax 
+}
