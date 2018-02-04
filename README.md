@@ -66,7 +66,7 @@ export DEP_NAME=$dep; cat test-deployment.dxt | dxt > test-$dep-deployment.yml
 done
 ```
 
-3) output result of one fail to check (optional)
+3) output result of one file to check (optional)
 ```bash
 $ cat test-users-deployment.yml
 ```
