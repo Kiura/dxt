@@ -1,7 +1,13 @@
 # dxt
 ###### Template to files using bash commands
 ---
-**WARNING** 
+### **WARNING 1**
+do NOT run this with dangerous bash code in your dxt file. E.g. 
+```bash 
+name: $(rm /)
+```
+
+### **WARNING 2** 
 The package evaluates shell commands so be careful with custom inputs, only use if you trust the input
 The tool is not tested, beta, and needs to be polished
 it can be extended to have config files or templates or can be extended to use flags etc (PRs are welcome, or open an issue if you want some functionality to be added)
