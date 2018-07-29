@@ -1,5 +1,9 @@
 # dxt
 ###### Template to files using bash commands
+#### installation:
+```bash
+go get github.com/Kiura/dxt
+```
 ---
 ### **WARNING 1**
 do NOT run this with dangerous bash code in your dxt file. E.g. 
@@ -13,7 +17,9 @@ The tool is not tested, beta, and needs to be polished
 it can be extended to have config files or templates or can be extended to use flags etc (PRs are welcome, or open an issue if you want some functionality to be added)
 
 examples of usage:
-
+```bash
+cat deployment.dxt | dxt | kubectl apply -f -;
+```
 ```bash
 cat yourfile.dxt | dxt
 ```
